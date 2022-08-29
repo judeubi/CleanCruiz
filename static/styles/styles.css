@@ -1,0 +1,301 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body p, body a, body h1, body h2, body h3, body h4, body ul li, button, span{
+    font-family: 'Poppins';
+}
+.navbar{
+    background-color: #8f5bda;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+.navbar h2{
+    color: white;
+    font-weight: bolder;
+}
+.navbar button{
+    margin-left: 10px;
+}
+button{
+    padding: 6px 18px;
+    border-radius: 16px;
+}
+.linksection ul li{
+    list-style: none;
+    float: left; 
+    padding: 0px 40px 0px 0px;
+    font-weight: l
+}
+.linksection ul li:hover {
+    text-decoration: underline;
+}
+.linksection ul li a{
+    text-decoration: none;
+    color: white;
+}
+.banner1{
+    background-color: #8f5bda;
+    display: flex;
+    justify-content: space-around;
+    padding: 32px 100px;
+    color: white;
+    border-bottom-left-radius: 80px;
+}
+.banner1 button, .navbar button{
+    color: #8f5bda;
+    background-color: white;
+    border: none;
+}
+.banner1 button:hover, .navbar button:hover{
+    color:white;
+    border: 2px white solid;
+    background-color: #8f5bda;
+}
+.banner1 button{
+    margin-top: 20px;
+    padding: 8px 100px;
+}
+.banner1 h1{
+    font-weight: bolder;
+}
+.text1{
+    padding-top: 40px;
+}
+.text1 a{
+    text-decoration: none;
+}
+.text1 a:hover{
+    color:white;
+}
+.banner2{
+    text-align: center;
+    background-color: white;
+    padding: 40px 100px;
+}
+.banner2 ul li {
+	margin: 0;
+	padding: 10px 0 10px 10px;
+	list-style: none;
+	background-image: url("../images/tick-removebg-preview.svg");
+	background-repeat: no-repeat;
+	background-position: 36%;
+	background-size: 20px;
+}
+.banner2 img {
+    height: 12px;
+}
+.banner2 p{
+    padding-top: 20px;
+}
+.banner3{
+    padding-top: 40px;
+    background-color: #ece9f0;
+    border-top-right-radius: 80px;
+}
+.theservices{
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 100px 50px 100px;
+    text-align: center;
+}
+.theservices button{
+    padding: 6px 15px;
+    border-radius: 15px;
+    margin-top: 20px;
+    color: white;
+    background-color: #8f5bda;
+    border: none;
+}
+.theservices button:hover{
+color: #8f5bda;
+background-color: white;
+border: 1px solid #8f5bda;
+}
+.theservices a{
+    text-decoration: underline;
+    color: #8f5bda;    
+    font-size: 14px;
+}
+.homecleaning, .officecleaning, .outdoorcleaning{
+    border-radius: 10px;
+    padding: 40px 40px;
+    position: relative;
+    background-color: white;
+}
+.officecleaning, .homecleaning{
+    padding-right: 40px;
+    margin-right: 50px;
+}
+.circle{
+    background-color: #8f5bda;
+    height: 57px;
+    width: 57px;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    left: 39%;
+}
+.circle img{
+    position: absolute;
+    left: 21%;
+    top: 10px;
+}
+.banner4{
+    padding: 0px 100px;
+    margin: 0, auto;
+}
+.banner4a{
+    display: flex;
+    justify-content: space-around;
+}
+.textrating{
+    padding-left: 100px;
+    padding-right: 200px;
+}
+.textrating p, .customer{
+    padding-left: 20px;
+}
+.review{
+    padding-left: 200px;
+}
+.fiverating{
+    padding-left: 20px;
+}
+.aboutcustomer{
+    display: flex;
+}
+.aboutcustomer img{
+    border-radius: 50%;
+}
+.nameandtitle{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.banner5{
+    border: white 50px solid;
+    border-bottom: 20px;
+    border-radius: 100px;
+    background-color: #8f5bda;
+    text-align: center;
+    padding: 40px 50px 0px 50px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.banner5 p{
+    font-size: 16px;
+}
+.side1{
+    width: 50%;
+    padding: 10px 0 0 0;
+}
+.byeimage img{
+    margin-top: -120px;
+}
+form{
+    padding-top: 20px;
+}
+input[type=text], select {
+    padding: 12px 20px;
+    font-family: 'Poppins';
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+}      
+input[type=submit] {
+    background-color: #8f5bda;
+    color: white;
+    padding: 10px 26px;
+    margin: 6px 0;
+    border: none;
+    font-family: 'Poppins';
+    border-radius: 40px;
+    cursor: pointer;
+    margin-left: -126px;
+}
+input[type=submit]:hover{
+    background-color: rgb(114, 75, 114);
+    color: white;
+}
+input[id=emailaddress]{
+    width:60%;
+    border: none;
+}
+.socials{
+    word-spacing: 20px;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+.socials a{
+    text-decoration: none;
+}
+.socials a ion-icon {
+    fill: white;
+}
+.ourcontacts a{
+   text-decoration: none;
+   color: white;
+}
+.ourcontacts a:hover, .socials a:hover{
+    filter: invert(18%) sepia(93%) saturate(5652%) hue-rotate(316deg) brightness(102%) contrast(109%);
+}
+.copyright{
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* djjkbbskkk,nsmn 
+dckcdckcndc
+ccvjcbckd,k
+bckdn
+*/
+.line{
+    background-color: #8f5bda;
+    height: 5px;
+}
+.overall{
+    border: none;
+    border-radius: 4px;
+    max-width:35%;
+    margin: 50px auto;
+    padding-bottom: 40px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 50%) scale(0.1);
+}
+.open-overall{
+    visibility: visible;
+    top:50%;
+    transform: translate (-50%, -50%) scale(1);
+}
+.container input{
+    padding: 6px;
+    display: block;
+    width: 80%;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.container label{
+    padding-left: 10px;
+    color: black;
+}
+.buttonform{
+    text-align: center;
+}
+.buttonform input{
+    background-color: orangered;
+    padding: 8px;
+    width:30%;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.buttonform input:hover{
+    background-color: brown;
+}
